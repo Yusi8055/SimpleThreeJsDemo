@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
+		<link rel="manifest" href="/assets/favicon/site.webmanifest">
+		<link rel="stylesheet" href="/assets/styles.css">
+		<title>Material Changing Demo</title>
+	</head>
+
+	<body>
+
+		<div id="scene-container">
+			
+		</div>
+		<div id="controls-container">
+			<div class="control-pannel">
+				<div class="object-details">
+					<div class="object">
+						<img src="/assets/material/BigChair/BigChair.png" alt="">
+					</div>
+					<h5 id="object-name">Luxury Chair</h5>
+					<h3>Select the Model</h3>
+					<div class="custom-select">
+						<div>
+							<ul id="objectSelector" class="objectSelector">
+								<li value="LuxChair">Luxury Chair</li>
+								<li value="BigChair">Big Chair</li>
+								<li value="StoolChair">Stool</li>
+							</ul>
+						</div>
+						<div>
+							<h3>Select the Material</h3>
+							<ul id="materialSelector" class="objectSelector">
+								<li value="Blue">Blue</li>
+								<li value="Gray">Gray</li>
+								<li value="Red">Red</li>
+								<li value="Teal">Teal</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/87/three.min.js"></script>
+		<script src="/vendors/three/OrbitControls.js"></script>
+		<script src="/vendors/three/OBJLoader.js"></script>
+		<script src="/vendors/three/MTLLoader.js"></script>
+		<script src="/scripts.js"></script>
+	</body>
+</html>
